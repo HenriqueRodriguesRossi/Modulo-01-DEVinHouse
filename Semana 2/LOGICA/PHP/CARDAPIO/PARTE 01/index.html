@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA 1</title>
+</head>
+<body>
+    <h1>Produtos Disponíveis:</h1>
+    <ul>
+        <li>Código: 100 - Cachorro Quente - Valor: R$ 1,20</li>
+        <li>Código: 101 - Bauru Simples - Valor: R$ 1,30</li>
+        <li>Código: 102 - Bauru com Ovo - Valor: R$ 1,50</li>
+        <li>Código: 103 - Hambúrger - Valor: R$ 1,20</li>
+        <li>Código: 104 - Cheeseburguer - Valor: R$ 1,30</li>
+        <li>Código: 105 - Refrigerante - Valor: R$ 1</li>
+    </ul>
+    <form action="sucesso.php" method="get">
+        <div>
+            <label for="codigo">Código do Produto:</label>
+            <input type="number" name="codigo" id="codigo">
+        </div>
+        <div>
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" name="quantidade" id="quantidade">
+        </div>
+        <button>Fazer Pedido</button>
+    </form>
+</body>
+</html>
