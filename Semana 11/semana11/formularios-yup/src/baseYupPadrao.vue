@@ -62,7 +62,7 @@ export default {
         
       } catch (error) {
         if(error instanceof Yup.ValidationError){
-          this.erros = captureErrorYup(error)
+          this.erros = captureErroYup(error)
         }
       }
     }
